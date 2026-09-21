@@ -21,6 +21,7 @@ clone_package() {
 clone_package package/luci-app-usb-printer https://github.com/cashlau/luci-app-usb_printer.git
 clone_package package/luci-app-argon-config https://github.com/jerrykuku/luci-app-argon-config
 clone_package package/luci-theme-argon https://github.com/jerrykuku/luci-theme-argon
+clone_package package/luci-theme-liquid https://github.com/zzsj0928/luci-theme-liquid
 clone_package package/luci-app-pushbot https://github.com/zzsj0928/luci-app-pushbot
 clone_package package/mosdns https://github.com/sbwml/luci-app-mosdns v5
 clone_package package/luci-app-netspeedtest https://github.com/muink/luci-app-netspeedtest.git master
@@ -79,6 +80,7 @@ cat > .external-package-options <<'EOF'
 luci-app-usb-printer
 luci-app-argon-config
 luci-theme-argon
+luci-theme-liquid
 luci-app-pushbot
 mosdns
 luci-app-mosdns
