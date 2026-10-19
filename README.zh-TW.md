@@ -16,7 +16,8 @@
 ### 主要功能
 
 - 自動取得 OpenWrt 官方最新穩定版原始碼並使用 GitHub Actions 編譯
-- 預設採用 **Argon LuCI 主題**，提供更現代化的 Web 管理介面
+- 預設採用 **OpenWrt 官方 LuCI Footstrap 主題**，支援響應式版面配置、淺色／深色模式及個人化外觀設定
+- 整合 **官方 LuCI Dashboard 儀表板**，支援即時監控圖表與自訂版面配置
 - 預設支援 **正體中文、簡體中文、English、Русский**
 - 預設使用 **PPPoE 撥號**，多網口設備預設將 **eth1** 設為 WAN，其餘實體網口作為 LAN；不符合條件時保留 OpenWrt 預設網路設定
 - 支援 **Intel X710 萬兆網路卡**
@@ -89,7 +90,6 @@ Fork 本專案 → 修改設定 → 開啟 **Actions** → **Run workflow** → 
 - [PushBot](https://github.com/zzsj0928/luci-app-pushbot) — 全能推送
 - [Nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
 - [Momo](https://github.com/nikkinikki-org/OpenWrt-momo)
-- [Argon](https://github.com/jerrykuku/luci-theme-argon) — 預設 LuCI 主題
 
 感謝所有開發者及貢獻者為開源社群所做的貢獻。
 
