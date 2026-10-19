@@ -16,7 +16,8 @@ You can download and use the prebuilt firmware directly, or **fork this reposito
 ### Features
 
 - Automatically tracks the latest stable OpenWrt source and builds with GitHub Actions
-- Uses the **Argon LuCI theme** by default, providing a more modern web management interface
+- Uses the **official OpenWrt LuCI Footstrap theme** by default, featuring responsive layouts, light/dark modes, and customizable appearance settings
+- Integrates the **official LuCI Dashboard**, featuring real-time monitoring charts and customizable layouts
 - Supports **English, Simplified Chinese, Traditional Chinese, and Russian** by default
 - Uses **PPPoE** by default. On multi-port devices, **eth1** is assigned as the WAN interface and the remaining physical Ethernet interfaces are used as LAN; if these conditions are not met, the default OpenWrt network configuration is preserved
 - Includes support for **Intel X710 10GbE adapters**
