@@ -134,7 +134,7 @@ else
 fi
 
 if [ -f "$LUCIMK" ]; then
-    sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' "$LUCIMK"
+    sed -i 's/luci-theme-bootstrap/luci-theme-footstrap/g' "$LUCIMK"
 fi
 
 echo "✅ 默认配置修改完成"
@@ -238,19 +238,19 @@ chmod +x files/etc/board.d/99-default_network
 echo "✅ 网络初始化脚本写入完成：eth1 为 WAN，其余实体 eth 网口为 LAN"
 
 
-# -------- 默认使用 Argon 主题 --------
+# -------- 默认使用 Footstrap 主题 --------
 
-cat > files/etc/uci-defaults/99-argon-temp <<'EOF'
+cat > files/etc/uci-defaults/99-footstrap-temp <<'EOF'
 #!/bin/sh
 set -e
 
-uci set luci.main.mediaurlbase='/luci-static/argon'
+uci set luci.main.mediaurlbase='/luci-static/footstrap'
 uci commit luci
 
 exit 0
 EOF
 
-chmod +x files/etc/uci-defaults/99-argon-temp
+chmod +x files/etc/uci-defaults/99-footstrap-temp
 
 
 # -------- 加入自有 luci-app-temp-status --------
@@ -302,13 +302,14 @@ enable_package() {
     printf '%s=y\n' "$option" >> .config
 }
 
-enable_package luci-theme-argon
+enable_package luci-theme-footstrap
+enable_package luci-mod-dashboard
 enable_package luci-app-temp-status
 enable_package kmod-hwmon-coretemp
 enable_package kmod-video-uvc
 enable_package ppp-mod-pppoe
 
-echo "✅ 温度驱动、温度插件、Argon、UVC、PPPoE 编译配置已加入"
+echo "✅ 温度驱动、温度插件、footstrap、UVC、PPPoE 编译配置已加入"
 
 
 # -------- 关闭代理插件默认启用开关 --------
