@@ -89,7 +89,6 @@ This project uses or integrates the following open-source projects:
 - [PushBot](https://github.com/zzsj0928/luci-app-pushbot) — PushBot
 - [Nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
 - [Momo](https://github.com/nikkinikki-org/OpenWrt-momo)
-- [Argon](https://github.com/jerrykuku/luci-theme-argon) — Default LuCI theme
 
 Many thanks to all developers and contributors for their contributions to the open-source community.
 
