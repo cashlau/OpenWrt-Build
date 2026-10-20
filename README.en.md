@@ -77,7 +77,8 @@ Some features may be subject to regional restrictions, network conditions, appli
 
 ### LuCI Interface Preview
 
-<img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/c18197b7-25f0-4156-9105-a3e84a8d308f" />
+<img width="1920" height="1065" alt="image" src="https://github.com/user-attachments/assets/56cebc08-c337-44f7-abf4-058ad6e35b50" />
+
 
 ## Acknowledgements
 
