@@ -77,7 +77,8 @@ Fork 本仓库 → 修改配置 → 打开 **Actions** → **Run workflow** → 
 
 ### LuCI 界面预览
 
-<img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/b384eb96-0c18-4a43-a084-0f3f25ac5874" />
+<img width="1920" height="1065" alt="image" src="https://github.com/user-attachments/assets/78c07859-262b-4ef2-8b26-61949ce31506" />
+
 
 ## 致谢
 
