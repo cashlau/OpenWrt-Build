@@ -83,7 +83,8 @@
 
 ## Предварительный просмотр интерфейса LuCI
 
-<img width="1920" height="1031" alt="OpenWrt LuCI" src="https://github.com/user-attachments/assets/b384eb96-0c18-4a43-a084-0f3f25ac5874" />
+<img width="1920" height="1065" alt="image" src="https://github.com/user-attachments/assets/d3a4fd53-36a4-4ba6-a184-3ef4a71e7def" />
+
 
 ## Благодарности
 
