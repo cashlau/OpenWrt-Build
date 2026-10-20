@@ -77,7 +77,8 @@ Fork 本專案 → 修改設定 → 開啟 **Actions** → **Run workflow** → 
 
 ## LuCI 介面預覽
 
-<img width="1920" height="1031" alt="image" src="https://github.com/user-attachments/assets/535a58fc-8838-4473-b146-71cb28f683a0" />
+<img width="1920" height="1065" alt="image" src="https://github.com/user-attachments/assets/62ac7c4b-128b-43b5-83f9-7f4225f67bde" />
+
 
 ## 致謝
 
