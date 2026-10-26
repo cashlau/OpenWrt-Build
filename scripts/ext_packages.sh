@@ -5,6 +5,17 @@ set -euo pipefail
 test -f include/toplevel.mk
 test -d feeds/packages/lang/golang
 
+# 将 nlbwmon 从「服务」移动到「状态」
+NLBW_MENU="feeds/luci/applications/luci-app-nlbwmon/root/usr/share/luci/menu.d/luci-app-nlbwmon.json"
+
+if [ -f "$NLBW_MENU" ]; then
+    sed -i 's#admin/services/nlbw#admin/status/nlbw#g' "$NLBW_MENU"
+    echo "nlbwmon menu moved to Status"
+else
+    echo "ERROR: nlbwmon menu file not found"
+    exit 1
+fi
+
 clone_package() {
     local destination="$1" repository="$2" branch="${3:-}"
     if [ -e "$destination" ]; then
